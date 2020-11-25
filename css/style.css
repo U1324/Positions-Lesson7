@@ -36,7 +36,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .nav-a {
-    color: black;
+    color:#FF7A00;
     transition: all, 0.2s, ease, 0.4s;
 }
 .nav-a:hover {
@@ -115,11 +115,16 @@
 .bottom {
     color: white;
     padding: 28px 53px;
-    background-color: #FF7A00;
+    background-color:#FF7A00;
     font-weight: 600;
-    margin-left: 50%;
+    margin-left: 40%;
     float: left;
     display: block;
+      
+}
+.more:hover .bottom{
+    background-color: black;
+    transition: all 0.2s ease 0.2s; 
 }
 .footer-block {
     width: 100%;
