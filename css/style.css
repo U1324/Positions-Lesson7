@@ -1,0 +1,138 @@
+.header-logo {
+    width: 138px;
+    margin-left: 140px;
+}
+.f-left {
+    float: left;
+}
+.f-right {
+    float: right;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner {
+    width: 100%;
+}
+.header-box {
+    margin-bottom: 24px;
+    margin-left: 140px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+.navigation {
+    width: 550px;
+    height: 50px;
+}
+.nav-li {
+    font-size: 16px;
+    margin-right: 45px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-a {
+    color: black;
+    transition: all, 0.2s, ease, 0.4s;
+}
+.nav-a:hover {
+    color:black;
+    font-size: 20px;
+}
+.nav-wraper {
+    margin-left: 119px;
+    margin-top: 48px;
+    width: 473px;
+}
+.block-wraper {
+    width: 1322px;
+}
+.banner-box { 
+    height: 382px;
+    margin-top: 100px;
+    position: relative
+}
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 310px;
+    transform: translate(-50%, -50%);
+    color: white;
+    animation: mymove 5s infinite;
+}
+.absolute1 {
+    color: white;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+.absolute2 {
+    color: white;
+    font-size: 48px;
+    margin-left: 45px;
+    font-family: 'Playfair Display', serif;
+}
+.title {
+    width: 138px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #FF7A00;
+    margin-top: 84px;
+    margin-bottom: 81px;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.p1 {
+    width: 563px;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+    color: #181C28;
+    font-family: 'Playfair Display', serif;
+}
+.p2 {
+    width: 636px;
+    font: 200px;
+    margin-bottom: 13px;
+    line-height: 25px;
+    color: #7B7B7B;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+.p3 {
+    width: 79px;
+    margin-top: 13px;
+    margin-bottom: 57px;
+    font-size: 14px;
+    color: #FF7A00;
+    vertical-align: middle;
+    font-family: 'Poppins', sans-serif;
+}
+.bottom {
+    color: white;
+    padding: 28px 53px;
+    background-color: #FF7A00;
+    font-weight: 600;
+    margin-left: 50%;
+    float: left;
+    display: block;
+}
+.footer-block {
+    width: 100%;
+    background-color: #181C28;
+    margin-top: 134px;
+    height: 266px;
+}
+@keyframes mymove {
+    0%   {top: 150px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+  }
+.clear {
+    clear: both;
+}
